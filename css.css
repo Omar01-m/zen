@@ -1,0 +1,119 @@
+#header {
+	background-color: white;
+	display: block;
+  }
+  
+  .container2 {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: white;
+	height: 60px;
+  }
+  .nav-links {
+	float: right;
+	flex: 1;
+	text-align: right;
+  }
+  .nav-links ul li {
+	display: inline-block;
+	position: relative;
+  }
+  .nav-links ul li a {
+	color: black;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+  }
+  .nav-links ul li i {
+	color: black;
+	padding-bottom: 20px;
+  }
+  .nav-links ul li span {
+	color: black;
+  }
+  
+  .nav-links2 {
+	float: left;
+	flex: 1;
+	text-align: right;
+  }
+  .nav-links2 ul li {
+	display: inline-block;
+	position: relative;
+  }
+  .nav-links2 ul li a {
+	color: black;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: semi bold;
+  }
+  .header-top {
+	background-color: white;
+	height: 60px;
+  }
+  .header-top .logo #logo {
+	width: 175px;
+	height: 35px;
+	float: left;
+	margin-left: 50px;
+	display: fixed;
+  }
+  .header-top .logo #bag {
+	width: 35px;
+	height: 48px;
+	float: right;
+	margin-right: 50px;
+  }
+  nav {
+	flex: 1;
+	text-align: center;
+	height: 40px;
+  }
+  nav ul li {
+	display: inline-block;
+	position: relative;
+  }
+  nav ul li a {
+	color: black;
+	text-decoration: none;
+	position: relative;
+	display: fixed;
+	font-size: 14px;
+	font-style: roboto;
+	margin-left: 10px;
+	margin-right: 10px;
+  }
+  nav ul li a::after {
+	content: "";
+	width: 0%;
+	height: 3px;
+	background: #e2002a;
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	transition: 0.5s
+  }
+  nav ul li a:hover::after {
+	width: 100%;
+	color: #e2002a;
+  }
+  nav ul li a:hover {
+	color: #e2002a;
+  }
+  .promo {
+	background: #e2002a;
+	height: 40px;
+  }
+  .promo span {
+	color: white;
+  }
+
